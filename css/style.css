@@ -14,6 +14,11 @@
     visibility: visible;
     opacity: 1;
 }
+.titleser{
+    font-size: calc(1.525rem + .3vw);
+    font-weight: 700;
+    line-height: 1.2;
+}
 /*** Spinner End ***/
 
 .back-to-top {
@@ -161,7 +166,7 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 50px;
+    max-height: 80px;
     transition: .5s;
 }
 
