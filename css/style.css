@@ -21,6 +21,55 @@
 }
 /*** Spinner End ***/
 
+.service-dropdown {
+  position: absolute;
+  top: 100% !important; /* يلتصق أسفل النافبار مباشرة */
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1050;
+  margin-top: 0 !important;
+}
+
+.service-tabs .nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.service-tabs .nav-link.active,
+.service-tabs .nav-link:hover {
+  background-color: #f1f1f1;
+  color: #0C8171;
+}
+
+/* يدعم اللغتين تلقائياً */
+html[dir="rtl"] .service-tabs .nav-link i {
+  float: left !important;
+  text-align: right !important;
+}
+html[dir="rtl"] .service-tabs .nav-link{
+  text-align: right !important;   
+}
+.tab-pane img{
+    height: 150px;
+}
+/* عند اللغة العربية */
+/* حافظ على اتجاه الصف الرئيسي كما هو */
+
+
+
+/* نمنع الصورة من التوسيط */
+html[dir="rtl"] .tab-pane .col-md-6:last-child {
+  display: flex;
+  justify-content: flex-start; /* خليها على اليسار */
+  align-items: center; /* لتوسيط عمودي لو الصورة مش واخدة كل الطول */
+}
+
+/* ننسق النص لليمين */
+html[dir="rtl"] .tab-content {
+  text-align: right;
+}
+
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -146,7 +195,6 @@
     font-family: 'Yantramanav', sans-serif;
     position: relative;
     margin-right: 25px;
-    padding: 35px 0;
     color: var(--bs-dark) !important;
     font-size: 18px;
     font-weight: 400;
@@ -198,8 +246,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
-    color: var(--bs-white);
+    color:#0c6281;
 }
 
 .navbar .nav-item:hover .dropdown-menu {
