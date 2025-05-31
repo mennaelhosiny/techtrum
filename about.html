@@ -73,7 +73,7 @@
 
 
         <!-- Navbar & Hero Start -->
-       <div class="container-fluid position-relative p-0">
+          <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5  py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
                 <img src="img/image1.png" alt="Logo">
@@ -87,7 +87,7 @@
                     <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
                     <!-- <a href="event.html" class="nav-item nav-link" data-i18n="events">Events</a> -->
                        <div class="nav-item dropdown position-static">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-i18n="blogs">Services</a>
+            <a class="nav-link dropdown-toggle" href="gallery.html" data-bs-toggle="dropdown" data-i18n="blogs">Services</a>
             <div class="dropdown-menu w-100 mt-0 rounded-0 border-top-0 shadow service-dropdown p-0">
               <div class="row g-0">
                 <!-- القائمة الجانبية -->
@@ -96,7 +96,7 @@
                    
                     <li class="nav-item mb-2">
                       
-                      <a class="nav-link active" href="ser1.html" data-target="#service1"
+                      <a class="nav-link " href="ser1.html" data-target="#service1"
                         data-i18n="titleser1">
                         Artificial Intelligence & ML 
                       </a>
@@ -113,13 +113,7 @@
                         Big Data & Cloud 
                       </a>
                     </li>
-                     <li class="nav-item mb-2">
-  
-                      <a class="nav-link " href="gallery.html" data-target="#service1"
-                        data-i18n="blogs">
-                        Artificial Intelligence & ML 
-                      </a>
-                    </li>
+                    
                   </ul>
                 </div>
 
@@ -129,7 +123,7 @@
                   <div class="tab-content">
 
                     <!-- Service 1 -->
-                    <div class="tab-pane fade show active" id="service1">
+                    <div class="tab-pane fade show " id="service1">
                       <div class="row">
                         <div class="col-md-6">
                           <ul class="list-unstyled fs-6 fw-medium">
@@ -240,7 +234,7 @@
               </div>
             </div>
           </div>
-                    <a href="https://wa.me/966554442151" class="nav-item nav-link" data-i18n="contact">Contact Us</a>
+                    <a href="contact.html" class="nav-item nav-link" data-i18n="contact">Contact Us</a>
                 </div>
 
                 <div class="dropdown" style="position: relative; display: inline-block;">
@@ -313,8 +307,8 @@
     <!-- Banner End -->
 
     <!-- About Start -->
- <div class="container-fluid py-5">
-  <div class="container py-5">
+<div class="container-fluid py-5 ">
+  <div class="content-wrapper py-5">
     <div class="row g-5 align-items-center">
       <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.1s">
         <div class="border bg-secondary rounded">
@@ -322,7 +316,6 @@
         </div>
       </div>
       <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
-        <!-- <h4 class="text-secondary sub-title fw-bold" data-i18n="aboutTechtrum_subtitle">About Techtrum</h4> -->
         <h1 class="display-3 mb-4" data-i18n="aboutTechtrum_title">Techtrum Consult is a specialized consulting firm</h1>
         <p data-i18n="aboutTechtrum_desc1">
           Offering advisory services in modern technologies and telecommunications within the business sector.
@@ -337,9 +330,10 @@
 </div>
 
 
+
     <!-- About End -->
  <div class="container-fluid py-5">
-  <div class="container py-5">
+  <div class="content-wrapper py-5">
     <div class="row g-5 align-items-center">
       
       <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.3s">
@@ -362,7 +356,7 @@
 
 
 <div class="container-fluid py-5">
-  <div class="container py-5">
+  <div class="content-wrapper py-5">
     <div class="row g-5 align-items-center">
        <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.1s">
         <div class="border bg-secondary rounded">
@@ -383,81 +377,156 @@
   </div>
 </div>
 
-  <div class="container-fluid training py-5">
-  <div class="container py-5">
-    <div class="pb-5">
-      <div class="row g-4 align-items-end">
-        <div class="col-xl-8">
-          <h4 class="text-secondary sub-title fw-bold" data-i18n="subtitle">Experience makes the difference</h4>
-          <h1 class="display-2 mb-0" data-i18n="title">An Integrated Value Chain</h1>
-        </div>
-        <div class="col-xl-4 text-xl-end">
-          <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#" data-i18n="viewAll">View All Services</a>
-        </div>
+ <div class="container-fluid training py-5">
+  <div class="content-wrapper py-5">
+    <!-- Title Section -->
+    <div class="pb-5 ">
+      <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s" data-i18n="subtitle">
+        Experience makes the difference
+      </h4>
+      <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s" data-i18n="title">
+        An Integrated Value Chain
+      </h1>
+    </div>
+
+    <!-- Grid of Services -->
+    <div class="row justify-content-center g-4">
+      <!-- Item 1 -->
+      <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+        <a href="#" class="text-decoration-none">
+          <div class="gallery-item h-100">
+            <img src="img/pngtree-partnership-of.jpg" class="img-fluid rounded w-100 h-100" alt="Partnerships" />
+            <div class="gallery-content">
+              <h4 class="text-primary" data-i18n="title12">Partnerships</h4>
+              <p data-i18n="desc12">
+                We build bridges with various local and international companies to bring the latest smart solutions to the market at a professional level.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+        <a href="#" class="text-decoration-none">
+          <div class="gallery-item h-100">
+            <img src="img/16.webp" class="img-fluid rounded w-100 h-100" alt="Design & Studies" />
+            <div class="gallery-content">
+              <h4 class="text-primary" data-i18n="title13">Design & Studies</h4>
+              <p data-i18n="desc13">
+                Professional designs and studies along with supervision of implementation.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+        <a href="#" class="text-decoration-none">
+          <div class="gallery-item h-100">
+            <img src="img/th.jpg" class="img-fluid rounded w-100 h-100" alt="Simulation" />
+            <div class="gallery-content">
+              <h4 class="text-primary" data-i18n="title14">Simulation</h4>
+              <p data-i18n="desc14">
+                We use the latest tools that follow best practices to validate the proposed technologies' efficiency.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+        <a href="#" class="text-decoration-none">
+          <div class="gallery-item h-100">
+            <img src="img/T.png" class="img-fluid rounded w-100 h-100" alt="Innovation" />
+            <div class="gallery-content">
+              <h4 class="text-primary" data-i18n="title15">Innovation</h4>
+              <p data-i18n="desc15">
+                Integrating smart technologies across sectors to support sustainability goals.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+        <a href="#" class="text-decoration-none">
+          <div class="gallery-item h-100">
+            <img src="img/21.jpg" class="img-fluid rounded w-100 h-100" alt="Sustainability" />
+            <div class="gallery-content">
+              <h4 class="text-primary" data-i18n="title16">Sustainability</h4>
+              <p data-i18n="desc16">
+                Tectrom Consult ensures long service life and sustainability through reliable solutions and products.
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
 
- <div class="training-carousel owl-carousel pt-5" dir="ltr">
-  <div class="training-item bg-white rounded">
-    <div class="training-img rounded-top">
-      <img src="img/portfolio-2.jpg" alt="Partnerships" />
-    </div>
-    <div class="rounded-bottom border border-top-0 p-4 text-center">
-      <a href="#" class="h4 mb-3 d-block" data-i18n="title12">Partnerships</a>
-      <p class="mb-3" data-i18n="desc12">
-        We build bridges with various local and international companies to bring the latest smart solutions to the market at a professional level.
-      </p>
-      <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#" data-i18n="readMore">Read More</a>
-    </div>
-  </div>
-
-  <div class="training-item bg-white rounded">
-    <div class="training-img rounded-top">
-      <img src="img/portfolio-1.jpg" alt="Design & Studies" />
-    </div>
-    <div class="rounded-bottom border border-top-0 p-4 text-center">
-      <a href="#" class="h4 mb-3 d-block" data-i18n="title13">Design & Studies</a>
-      <p class="mb-3" data-i18n="desc13">Professional designs and studies along with supervision of implementation.</p>
-      <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="gallery.html" data-i18n="readMore">Read More</a>
-    </div>
-  </div>
-
-  <div class="training-item bg-white rounded">
-    <div class="training-img rounded-top">
-      <img src="img/portfolio-3.jpg" alt="Simulation" />
-    </div>
-    <div class="rounded-bottom border border-top-0 p-4 text-center">
-      <a href="#" class="h4 mb-3 d-block" data-i18n="title14">Simulation</a>
-      <p class="mb-3" data-i18n="desc14">We use the latest tools that follow best practices to validate the proposed technologies' efficiency.</p>
-      <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#" data-i18n="readMore">Read More</a>
-    </div>
-  </div>
-
-  <div class="training-item bg-white rounded">
-    <div class="training-img rounded-top">
-      <img src="img/portfolio-4.jpg" alt="Innovation" />
-    </div>
-    <div class="rounded-bottom border border-top-0 p-4 text-center">
-      <a href="#" class="h4 mb-3 d-block" data-i18n="title15">Innovation</a>
-      <p class="mb-3" data-i18n="desc15">Integrating smart technologies across sectors to support sustainability goals.</p>
-      <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#" data-i18n="readMore">Read More</a>
-    </div>
-  </div>
-
-  <div class="training-item bg-white rounded">
-    <div class="training-img rounded-top">
-      <img src="img/portfolio-5.jpg" alt="Sustainability" />
-    </div>
-    <div class="rounded-bottom border border-top-0 p-4 text-center">
-      <a href="#" class="h4 mb-3 d-block" data-i18n="title16">Sustainability</a>
-      <p class="mb-3" data-i18n="desc16">Tectrom Consult ensures long service life and sustainability through reliable solutions and products.</p>
-      <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#" data-i18n="readMore">Read More</a>
-    </div>
+   
   </div>
 </div>
+<style>
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    height: 320px;
+    transition: transform 0.3s ease;
+  }
 
-  </div>
-</div>
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .gallery-item:hover .gallery-content {
+    opacity: 1;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }
+
+  .gallery-content h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+    color: #0d6efd !important;
+  }
+
+  .gallery-content p {
+    font-size: 1rem;
+    color: #0d6efd !important;
+  }
+
+  a.text-decoration-none:hover .gallery-content h4,
+  a.text-decoration-none:hover .gallery-content p {
+    text-decoration: none;
+  }
+</style>
 
     <!-- Counter Facts Start -->
     <!-- <div class="container-fluid counter-facts py-5">
@@ -544,7 +613,7 @@
 </style>
 
 <div class="container-fluid team pb-5">
-  <div class="container pb-5">
+  <div class="content-wrapper pb-5">
   <div class="pb-5">
   <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s" data-i18n="subTitle5">OUR TEAM</h4>
   <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s" data-i18n="title5">Generating Ideas is Teamwork</h1>
@@ -623,62 +692,58 @@
 
     <!-- Team End -->
         <!-- Footer Start -->
-          <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4" data-i18n="title1">JustDanc</h4>
-                            <p class="text-white mb-3" data-i18n="description1">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                            <div class="d-flex">
-                               
-                                <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://x.com/techtrum_ksa?s=21&t=eztNfcyajtI5kYT9l97_rQ"><i
-                                        class="fab fa-twitter"></i></a>
-                               
-                                <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://www.linkedin.com/in/techtrum?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4" data-i18n="contact">contact</h4>
-                       
-                        <div class="d-flex align-items-center mb-3">
-                            <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="tel:+966554442151"><i
-                                    class="fa fa-phone-alt"></i></a>
-                            <div class="text-white ms-2" dir="ltr">
-                                <p class="mb-0">+966 55 444 2151</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4">Quick Links</h4>
-                        <a href="about.html" class="footer-link" data-i18n="about"> About Us</a>
-                        <a href="index.html" class="footer-link" data-i18n="home">Home</a>
-                        <a href="team.html" class="footer-link" data-i18n="team">Our Team</a>
-
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4" data-i18n="aboutTechtrum_subtitle">Newsletter</h4>
-                            <p class="text-white mb-3" data-i18n="aboutTechtrum_title">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
-                                dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
+   <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+  <div class="content-wrapper py-5">
+    <div class="row gx-4 gy-4">
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <h4 class="text-white mb-4" data-i18n="title1">JustDanc</h4>
+          <p class="text-white mb-3" data-i18n="description1">
+            Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
         </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <h4 class="text-white mb-4" data-i18n="contact">Contact</h4>
+          <div class="d-flex align-items-center mb-3">
+            <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="tel:+966554442151">
+              <i class="fa fa-phone-alt"></i>
+            </a>
+            <div class="text-white ms-2" dir="ltr">
+              <p class="mb-0">+966 55 444 2151</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://x.com/techtrum_ksa">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://www.linkedin.com/in/techtrum">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <h4 class="text-white mb-4" data-i18n="QuickLinks" ></h4>
+          <a href="about.html" class="footer-link" data-i18n="about">About Us</a>
+          <a href="index.html" class="footer-link" data-i18n="home">Home</a>
+          <a href="team.html" class="footer-link" data-i18n="team">Our Team</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <h4 class="text-white mb-4" data-i18n="aboutTechtrum_subtitle">Newsletter</h4>
+          <p class="text-white mb-3" data-i18n="aboutTechtrum_title">
+            Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+
         <!-- Footer End -->
 
         

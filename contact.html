@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Techtrum Consult</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <title>Techtrum Consult</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
 
-        <!-- Topbar Start -->
-        <!-- <div class="container-fluid bg-secondary px-5 d-none d-lg-block">
+    <!-- Topbar Start -->
+    <!-- <div class="container-fluid bg-secondary px-5 d-none d-lg-block">
             <div class="row gx-0 align-items-center" style="height: 45px;">
                 <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                     <div class="d-flex flex-wrap">
@@ -69,13 +72,13 @@
                 </div>
             </div>
         </div> -->
-        <!-- Topbar End -->
+    <!-- Topbar End -->
 
 
-        <!-- Navbar & Hero Start -->
-         <div class="container-fluid position-relative p-0">
+    <!-- Navbar & Hero Start -->
+      <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5  py-lg-0">
-            <a href="#" class="navbar-brand p-0">
+            <a href="index.html" class="navbar-brand p-0">
                 <img src="img/image1.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -86,25 +89,160 @@
                     <a href="index.html" class="nav-item nav-link active" data-i18n="home">Home</a>
                     <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
                     <!-- <a href="event.html" class="nav-item nav-link" data-i18n="events">Events</a> -->
-                    <a href="gallery.html" class="nav-item nav-link" data-i18n="blogs">Services</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                            data-i18n="pages">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="classes.html" class="dropdown-item" data-i18n="our_classes">Our classes</a>
-                            <a href="training.html" class="dropdown-item" data-i18n="training">Dance Training</a>
-                            <a href="team.html" class="dropdown-item" data-i18n="team">Our Team</a>
-                            <a href="testimonial.html" class="dropdown-item" data-i18n="testimonial">Testimonial</a>
-                            <a href="html" class="dropdown-item" data-i18n="gallery">Dance Gallery</a>
-                            <a href="404.html" class="dropdown-item" data-i18n="not_found">404 Page</a>
+                       <div class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle" href="gallery.html" data-bs-toggle="dropdown" data-i18n="blogs">Services</a>
+            <div class="dropdown-menu w-100 mt-0 rounded-0 border-top-0 shadow service-dropdown p-0">
+              <div class="row g-0">
+                <!-- القائمة الجانبية -->
+                <div class="col-md-3 bg-light p-3 border-end">
+                  <ul class="nav flex-column service-tabs">
+                   
+                    <li class="nav-item mb-2">
+                      
+                      <a class="nav-link " href="ser1.html" data-target="#service1"
+                        data-i18n="titleser1">
+                        Artificial Intelligence & ML 
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a class="nav-link" href="ser2.html" data-target="#service2"
+                        data-i18n="titleser2">
+                        Generative AI & GPT  
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a class="nav-link" href="ser3.html" data-target="#service3"
+                        data-i18n="titleser3">
+                        Big Data & Cloud 
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </div>
+
+                <!-- المحتوى -->
+
+                <div class="col-md-9 p-4">
+                  <div class="tab-content">
+
+                    <!-- Service 1 -->
+                    <div class="tab-pane fade show " id="service1">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <ul class="list-unstyled fs-6 fw-medium">
+                            <li>
+                              <a href="ser1.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-brain text-primary"></i>
+                                <span data-i18n="contactser1">AI Consulting</span>
+                              </a>
+                            </li>
+                            <li class="mt-2">
+                              <a href="ser1.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-robot text-primary"></i>
+                                <span data-i18n="contactser2">AI Product Development</span>
+                              </a>
+                            </li>
+                              <li class="mt-2">
+                              <a href="ser1.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-robot text-primary"></i>
+                                <span data-i18n="contactser3">AI Product Development</span>
+                              </a>
+                            </li>
+                          </ul>
                         </div>
-                    </div> -->
-                    <a href="https://wa.me/966554442151" class="nav-item nav-link" data-i18n="contact">Contact Us</a>
+                        <div class="col-md-6">
+                          <img src="img/portfolio-1.jpg" class="img-fluid rounded shadow" alt="Service Preview">
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="tab-pane fade" id="service2">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <ul class="list-unstyled fs-6 fw-medium">
+                            <li>
+                              <a href="ser2.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-comments text-primary"></i>
+                                <span data-i18n="contactser11">Chatbot Integration</span>
+                              </a>
+                            </li>
+                            <li class="mt-2">
+                              <a href="ser2.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-magic text-primary"></i>
+                                <span data-i18n="contactser22">GPT Model Tuning</span>
+                              </a>
+                            </li>
+                              <li class="mt-2">
+                              <a href="ser2.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-magic text-primary"></i>
+                                <span data-i18n="contactser33">GPT Model Tuning</span>
+                              </a>
+                            </li>
+                             </li>
+                              <li class="mt-2">
+                              <a href="ser2.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-magic text-primary"></i>
+                                <span data-i18n="contactser44">GPT Model Tuning</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="img/portfolio-2.jpg" class="img-fluid rounded shadow" alt="Service Preview">
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="tab-pane fade" id="service3">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <ul class="list-unstyled fs-6 fw-medium">
+                            <li>
+                              <a href="ser3.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-database text-primary"></i>
+                                <span data-i18n="contactser111">Data Lakes</span>
+                              </a>
+                            </li>
+                            <li class="mt-2">
+                              <a href="ser3.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-cloud-upload-alt text-primary"></i>
+                                <span data-i18n="contactser333">Cloud Migration</span>
+                              </a>
+                            </li>
+                             <li class="mt-2">
+                              <a href="ser3.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-cloud-upload-alt text-primary"></i>
+                                <span data-i18n="contactser222">Cloud Migration</span>
+                              </a>
+                            </li>
+                             <li class="mt-2">
+                              <a href="ser3.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-cloud-upload-alt text-primary"></i>
+                                <span data-i18n="contactser444">Cloud Migration</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="img/portfolio-3.jpg" class="img-fluid rounded shadow" alt="Service Preview">
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+                    <a href="contact.html" class="nav-item nav-link" data-i18n="contact">Contact Us</a>
                 </div>
 
                 <div class="dropdown" style="position: relative; display: inline-block;">
                     <button id="languageToggle" class="btn btn-primary"
-                        style="padding: 8px 16px; border: none; background-color: #0b769d; color: white; border-radius: 5px;">
+                        style="padding: 8px 16px; border: none; background-color: #0b769d; color: white; border-radius: 30px;">
                         عربي
                     </button>
 
@@ -122,154 +260,114 @@
             </div>
         </nav>
     </div>
-        <!-- Navbar & Hero End -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tabLinks = document.querySelectorAll(".service-tabs .nav-link");
+            const tabPanes = document.querySelectorAll(".tab-pane");
 
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-primary display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h1>
-                <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-dark">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#" class="text-dark">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary">Contact</li>
-                </ol>    
-            </div>
+            tabLinks.forEach(link => {
+                link.addEventListener("mouseenter", function (e) {
+                    const targetId = link.getAttribute("data-target");
+
+                    // إزالة active من جميع العناصر
+                    tabLinks.forEach(l => l.classList.remove("active"));
+                    tabPanes.forEach(pane => {
+                        pane.classList.remove("show", "active");
+                    });
+
+                    // تفعيل العنصر المستهدف
+                    link.classList.add("active");
+                    const targetPane = document.querySelector(targetId);
+                    if (targetPane) {
+                        targetPane.classList.add("show", "active");
+                    }
+                });
+            });
+        });
+    </script>
+    <!-- Navbar & Hero End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h3 class="text-primary display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s" data-i18n="title1">Contact Us
+                </h1>
+
         </div>
-        <!-- Header End -->
+    </div>
+    <!-- Header End -->
 
-        <!-- Banner Start -->
-        <div class="container-fluid bg-secondary wow zoomInDown" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center ">
-                    <h4 class="me-4"><span class="fw-normal text-white">Join us today  </span><span>  </span></h4>
-                    <a href="#" class="text-white fw-bold fs-5"> <i class="fa fa-phone me-1"></i> 714-783-2205</a>
-                </div>
-            </div>
-        </div>
-        <!-- Banner End -->
 
-        <!-- Contact Start -->
-        <div class="container-fluid contact py-5">
-            <div class="container py-5">
-                <div class="pb-5">
-                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Contact Us</h4>
-                    <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">Get In Touch</h1>
-                </div>
-                <div class="bg-light rounded p-4 pb-0">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                            <h2 class="display-5 mb-2">Form</h2>
-                            <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="phone" class="form-control" id="phone" placeholder="Phone">
-                                            <label for="phone">Your Phone</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="project" placeholder="Project">
-                                            <label for="project">Your Project</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
+
+    <!-- Contact Start -->
+    <div class="container-fluid contact py-5">
+        <div class="container py-5">
+
+            <div class="bg-light rounded p-4 pb-0">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <h2 class="display-5 mb-4" data-i18n="contactus">Form</h2>
+                        <form>
+                            <div class="row g-3">
+
+                                <div class="col-lg-12">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder=""
+                                            data-i18n-placeholder="yourEmail" />
+                                        <label for="email" data-i18n="yourEmail">Your Email</label>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
-                            <div class="d-flex align-items-center mb-5">
-                                <div class="mb-3"><i class="fa fa-home fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Addresses</h4>
-                                    <p class="mb-0">123 ranking Street, New York, USA</p>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder=""
+                                            data-i18n-placeholder="subject" />
+                                        <label for="subject" data-i18n="subject">Subject</label>
+                                    </div>
                                 </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="message" placeholder=""
+                                            data-i18n-placeholder="message" style="height: 160px"></textarea>
+                                        <label for="message" data-i18n="message">Message</label>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="d-flex align-items-center mb-5">
-                                <div class="mb-3"><i class="fa fa-map-marker-alt fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Addresses</h4>
-                                    <p class="mb-0">123 ranking Street, New York, USA</p>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center mb-5">
-                                <div class="mb-3"><i class="fa fa-phone-alt fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Mobile</h4>
-                                    <p class="mb-0">+012 345 67890</p>
-                                    <p class="mb-0">+012 345 67890</p>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center mb-5">
-                                <div class="mb-3"><i class="fa fa-envelope-open fa-2x text-primary"></i></div>
-                                <div class="ms-4">
-                                    <h4>Email</h4>
-                                    <p class="mb-0">info@example.com</p>
-                                    <p class="mb-0">info@example.com</p>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div class="me-4">
-                                    <i class="fas fa-share-alt fa-2x text-primary"></i>
-                                </div>
-                                <div class="d-flex">
-                                    <a class="btn btn-lg-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                       
+                        </form>
+                        
                     </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <img src="img/portfolio-5.jpg" alt="" srcset="" style="border-radius: 20px;">
+
+                    </div>
+
                 </div>
             </div>
         </div>
-        <!-- Contact End -->
+    </div>
+    <!-- Contact End -->
 
-        <!-- Footer Start -->
-           <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <div class="footer-item">
                             <h4 class="text-white mb-4" data-i18n="title1">JustDanc</h4>
-                            <p class="text-white mb-3" data-i18n="description1">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
+                            <p class="text-white mb-3" data-i18n="description1">Dolor amet sit justo amet elitr clita
+                                ipsum elitr est.Lorem ipsum
                                 dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
                             <div class="d-flex">
-                               
-                                <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://x.com/techtrum_ksa?s=21&t=eztNfcyajtI5kYT9l97_rQ"><i
+
+                                <a class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                                    href="https://x.com/techtrum_ksa?s=21&t=eztNfcyajtI5kYT9l97_rQ"><i
                                         class="fab fa-twitter"></i></a>
-                               
-                                <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="https://www.linkedin.com/in/techtrum?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+
+                                <a class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                                    href="https://www.linkedin.com/in/techtrum?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
                                         class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
@@ -278,7 +376,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <h4 class="text-white mb-4" data-i18n="contact">contact</h4>
-                       
+
                         <div class="d-flex align-items-center mb-3">
                             <a class="btn btn-lg-square btn-primary rounded-circle mx-2" href="tel:+966554442151"><i
                                     class="fa fa-phone-alt"></i></a>
@@ -286,7 +384,7 @@
                                 <p class="mb-0">+966 55 444 2151</p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
@@ -302,41 +400,25 @@
                     <div class="footer-item d-flex flex-column">
                         <div class="footer-item">
                             <h4 class="text-white mb-4" data-i18n="aboutTechtrum_subtitle">Newsletter</h4>
-                            <p class="text-white mb-3" data-i18n="aboutTechtrum_title">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
+                            <p class="text-white mb-3" data-i18n="aboutTechtrum_title">Dolor amet sit justo amet elitr
+                                clita ipsum elitr est.Lorem ipsum
                                 dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-        <!-- Footer End -->
-
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-white"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-white">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
+    <!-- Footer End -->
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
-        
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -346,10 +428,11 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-    
+
 
     <!-- Template Javascript -->
+    <script src="js/translate.js"></script>
     <script src="js/main.js"></script>
-    </body>
+</body>
 
 </html>

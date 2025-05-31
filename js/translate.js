@@ -18,9 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
       contact: "Contact Us",
       greeting: "Hello",
       welcome: "Welcome to our website",
+      ourexperiense:"our previous projects",
       buttonText: "عربي",
       "subtitle1": "Techtrum Consult",
-      "title1": "Techtrum delivers sustainable solutions",
+      "title1": "connect to grow",
       "description1": "Techtrum delivers sustainable solutions in Saudi Arabia through expert consulting and emerging smart technologies.",
       "join1": "Join Now",
       "readmore1": "Read More",
@@ -55,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc15: "Integrating smart technologies across sectors to support sustainability goals.",
       title16: "Sustainability",
       desc16: "Tectrom Consult ensures long service life and sustainability through reliable solutions and products.",
-      subtitle: "Experience makes the difference",
+      subtitle: "our value",
       title: "An Integrated Value Chain",
       viewAll: "View All Services",
       readMore: "Read More",
@@ -91,14 +92,14 @@ document.addEventListener('DOMContentLoaded', () => {
       titleser5: "Antenna Design & Placement",
       descriptionser5: "Optimal antenna placement and RF design for maximum coverage and minimal interference",
 
-
+      techtrum:"techtrum Services",
       titleser6: "Network Performance",
       descriptionser6: "Capacity planning, load balancing, and RF interference mitigation strategies",
 
 
       titleser7: "IoT Infrastructure",
       descriptionser7: "Comprehensive IoT solutions for smart utilities, transportation, and public services",
-
+       QuickLinks:"Quick Links",
 
       titleser8: "Digital Twin Solutions",
       descriptionser8: "Virtual replicas of physical assets for simulation, analysis, and control",
@@ -110,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       titleser10: "Capacity Planning",
       descriptionser10: "Data traffic studies and network expansion strategies for future growth",
-
+      ourprojects:"our projects",
       viewAll: "View All Services",
       readMore: "Read More",
       subTitle5: "OUR TEAM",
@@ -137,6 +138,33 @@ document.addEventListener('DOMContentLoaded', () => {
       contactser333desc:"We believe in our positive impact in ESG reporting, public polices, impact assessment and on solution side we providing the emission tracking solutions and Green AI & IoT Ecosystems solutions.",
       contactser444:"Innovation Consultation",
       contactser444desc:"Our Specialized consultation in innovation focusing on Research & Development, Disruptive Tech Adoption, Prototyping & MVP Development, Climate Tech Advisory, Innovation Strategy Blueprint and Proof of Concept (PoC) Development",
+      contactus:"contact us",
+      sendmessage:"send message",
+      "yourEmail": "Your Email",
+      "subject": "Subject",
+      "message": "Message",
+      mnhgya:"Enabling success through international standards and local expertise",
+      mnhgyadesc:"Our approach starts with a current status assessment (CSA) through effective client engagement. We tailor solutions to address identified gaps and ensure knowledge transfer. At Techtrum Consult, we prioritize solution sustainability, enabling and empowering our clients.",
+      achivegoals:"Empowering organizations to reach their full potential",
+      achivegoalsdesc:"At Techtrum Consult, we believe every employee deserves to feel their contributions matter—that they are seen, heard, and valued. We know an inclusive and productive workplace hinges on the relationships between individuals and their managers. Our consultation and training services help leaders enhance self-awareness and develop the skills needed to inspire and unlock the potential of their entire team.",
+      ourimpact1:"Our impact",
+      ourimpactspam:"Cultivating innovation, advancement, and success.",
+      impactdesc:"We are a trusted partner, aiming to create a sustainable impact in what we do at both organizational and personal levels. Our impact comes from our deep understanding of the market needs and the experience we bring to enable our client capture the optimum solutions and values through",
+      impact1:"We offer a wide array of consultation and training services designed to cater to organizations' unique requirements.",
+      impact2:"Our solutions address your unique challenges and opportunities, providing the tools and techniques to thrive in today's dynamic market.",
+      impact3:"We uplift and support current and emerging leaders, laying a solid foundation for our clients' success in their respective industries",
+      impact4:"Committed to enriching both governmental and private sectors in alignment with Vision 2030.",
+      featuretechtrum:"Techtrum Consult is different",
+      feature1:"Local expertise and global partnerships ",
+      feature1desc:"Our deep understanding of the local market, combined with carefully selected international partnerships, allows us to localize global solutions for maximum client value.",
+      feature2:"Techtrum Consult Network ",
+      feature2desc:"We leverage a highly selected network of expert consultants and subject matter specialists on an international scale to maximize impact and optimize capacity.",
+      feature3:"Proven Track Record ",
+      feature3desc:"Our consultants have a history of designing and delivering successful solutions for both government and private sectors, achieving outstanding results.",
+      feature4:"Commitment to Excellence ",
+      feature4desc:"We recognize the challenges organizations face in fulfilling their duties and achieving their 2030 vision goals. We believe in jumpstarting leadership and organizations to deliver on promises and achieve the highest level of excellence.",
+
+
     },
     ar: {
       home: "الرئيسية",
@@ -147,6 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
       our_classes: "فصولنا",
       training: "تدريب الرقص",
       team: "فريقنا",
+      sendmessage:"ارسال الرسالة",
       testimonial: "آراء العملاء",
       gallery: " مشاريعنا",
       not_found: "صفحة غير موجودة",
@@ -154,9 +183,9 @@ document.addEventListener('DOMContentLoaded', () => {
       greeting: "مرحبا",
       welcome: "أهلاً بك في موقعنا",
       buttonText: "English",
-
+      contactus:"تواصل معنا",
       "subtitle1": "تكتروم للاستشارات",
-      "title1": "تكتروم تقدم حلولًا مستدامة",
+      "title1": "   ...تواصل ... لتنمو",
       "description1": "تكتروم تقدم حلولًا مستدامة في السعودية من خلال الاستشارات المتخصصة والتقنيات الذكية الناشئة.",
       "join1": "انضم الآن",
       "readmore1": "اقرأ المزيد",
@@ -191,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc15: "دمج وتكامل التقنيات الذكية لقطاعات مختلفة لخدمة أهداف الاستدامة.",
       title16: "الاستدامة",
       desc16: "بضمان الخدمة والمنتجات المقدمة، تمنح تيكتروم كونسلت الأنظمة عمرًا طويلاً واستدامة.",
-      subtitle: "الخبرة تصنع الفارق",
+      subtitle: " قيمنا ",
       title: "سلسلة قيمة متكاملة",
       viewAll: "عرض جميع الخدمات",
       readMore: "اقرأ المزيد",
@@ -262,6 +291,33 @@ document.addEventListener('DOMContentLoaded', () => {
       contactser333desc:"نؤمن بتأثيرنا الإيجابي في تقديمنا لتقارير متخصصة في الحوكمة البيئية الاجتماعية ESG، السياسات العامة، تقييم الأثر ، وعلى جانب الحلول نقدم حلول تتبع الانبعاثات الكربونية وحلول النظم البيئية للذكاء الاصطناعي وإنترنت الأشياء (Ecosystem).",
       contactser444:"الخدمات الاستشارية في أعمال الابتكار",
       contactser444desc:" نركز في استشاراتنا المتخصصة في الابتكار على البحث والتطوير، تبني التقنيات المبتكرة، تطوير النماذج الأولية والحد الأدنى من المنتجات القابلة للتطبيق MVP))، الاستشارات في تقنيات المناخ، مخططات استراتيجية الابتكار وتطوير نماذج اثبات المفاهيم PoC).)",
+      "yourEmail": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      ourexperiense:"خبراتنا السابقة",
+      ourprojects:"مشاريعنا",
+      QuickLinks:"روابط سريعة",
+      techtrum:"خدمات تكتروم",
+      mnhgya:"نحقق النجاح من خلال المعايير الدولية والخبرات المحلية ",
+      mnhgyadesc:"تبدأ منهجيتنا بإجراء تقييم للوضع الراهن (CSA) من خلال تفاعل فعّال مع العملاء. نحن نُصمم حلولاً مخصصة لمعالجة الفجوات المحددة وضمان نقل المعرفة. في تيكتروم كونسلت ، نُعطي الأولوية لاستدامة الحلول، مما يمكن ويُقوي عملاءنا لتحقيق النجاح الدائم.  ",
+      achivegoals:"تمكين المنظمات لتحقيق أقصى إمكاناتها",
+      achivegoalsdesc:"في تيكتروم كونسلت، نؤمن بأن كل موظف يستحق أن يشعر بأن مساهماته مهمة – وأنه مرئي، مسموع، ومقدر. نحن نعلم أن مكان العمل المشترك والمنتج النهائي يعتمد على العلاقات بين الأفراد ومديريهم. تساعد خدماتنا الاستشارية والتدريبية القادة على تعزيز الوعي الذاتي وتطوير المهارات اللازمة لإلهام وإطلاق إمكانات فريقهم بالكامل.  ",
+      ourimpact1:"أثرنا",
+      ourimpactspam:"تعزيز الابتكار، التقدم، والنجاح",
+      impactdesc:"نحن شريك موثوق به، نهدف إلى خلق تأثير مستدام في ما نقوم به على المستويين التنظيمي والتقني. ينبع تأثيرنا من فهمنا العميق لاحتياجات السوق والخبرة التي نقدمها لتمكين عملائنا من تحقيق الحلول والقيمة المثلى.  ",
+      impact1:"نقدم مجموعة واسعة من الخدمات الاستشارية التقنية المصممة خصيصاً لتلبية الاحتياجات الفريدة للمنظمات ",
+      impact2:"حلولنا تتناول التحديات والفرص الفريدة التي تواجهها، وتوفر الأدوات والتقنيات اللازمة للازدهار في السوق المتغير اليوم.  ",
+      impact3:"نحن نرفع وندعم القادة الحاليين والناشئين، ونضع أساساً متيناً لنجاح عملائنا في صناعاتهم المختلفة.  ",
+      impact4:"ملتزمون بإثراء القطاعين الحكومي والخاص بما يتماشى مع رؤية 2030.  ",
+      featuretechtrum:"ما يميز تيكتروم للاستشارات",
+      feature1:"الخبرة المحلية والشراكات العالمية",
+      feature1desc:"فهمنا العميق للسوق المحلية، إلى جانب شراكاتنا الدولية المدروسة، يمكننا من توطين الحلول العالمية لتعظيم القيمة المقدمة للعميل.  ",
+      feature2:"شبكة تيكتروم للاستشارات",
+      feature2desc:"نستفيد من شبكة مختارة بعناية من الخبراء الاستشاريين والمتخصصين على المستوى الدولي لتعظيم الأثر وتحسين القدرات.  ",
+      feature3:"سجل حافل بالإنجازات",
+      feature3desc:"يتمتع مستشارونا بسجل حافل في تصميم وتنفيذ حلول ناجحة لكل من القطاعين الحكومي والخاص، محققين نتائج استثنائية.  ",
+      feature4:"الالتزام بالتميز",
+      feature4desc:"نحن ندرك التحديات التي تواجهها المنظمات في تنفيذ مهامها وتحقيق أهداف رؤية 2030. نؤمن بتمكين القيادات والمنظمات للوفاء بوعودها وتحقيق أعلى مستويات التميز.  ",
     }
   };
 
@@ -289,3 +345,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const savedLang = localStorage.getItem('language') || 'en';
   setLanguage(savedLang);
 });
+ const inputs = document.querySelectorAll('input, textarea');
+
+  inputs.forEach(input => {
+    input.style.direction = isRTL ? 'rtl' : 'ltr';
+    input.style.textAlign = isRTL ? 'right' : 'left';
+  });
