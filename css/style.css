@@ -255,13 +255,16 @@ html[dir="rtl"] .tab-content {
   direction: rtl;
 }
 
+.row>* {
+ 
+     padding-right: calc(var(--bs-gutter-x) / 1); 
+    padding-left: 0 !important; 
+}
 
+.row {
 
-
-.content-wrapper {
-  max-width: 1650px; /* نفس max-width بتاع container-lg */
-  margin-inline: auto; /* سنتر المحتوى أفقياً */
-  padding-inline: 1rem; /* padding يمين وشمال */
+    margin-right: 0 !important;
+    margin-left:0 !important;
 }
 
 .lang-en input::placeholder,
