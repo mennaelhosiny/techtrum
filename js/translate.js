@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       subTitle5: "OUR TEAM",
       title5: "Generating Ideas is Teamwork",
 
-
+     send:"send",
       subTitleser: "Our Expertise Gallery",
       titleser: "Spectrum Engineering & Smart Solutions",
       descriptionser: "Innovative wireless, fiber optics, and smart city solutions compliant with ITU, MCIT, and CST regulations",
@@ -202,8 +202,8 @@ document.addEventListener('DOMContentLoaded', () => {
       "readmore3": "اقرأ المزيد",
       "aboutTechtrum_subtitle": " عن تكتروم كونسلت",
       "aboutTechtrum_title": "  تيكتروم كونسلت " ,
-      "aboutTechtrum_desc1": "هي شركة استشارية متخصصة تقدم خدمات استشارية في التقنيات الحديثة وخدمات الاتصالات في المجال التجاري.",
-      "aboutTechtrum_desc2": "تركز على دراسة وإيجاد الحلول المثلى التي تعزز من الاستدامة، من خلال خبرات مستشاريها التقنيين والإستراتيجيين.",
+      "aboutTechtrum_desc1": "هي شركة استشارية متخصصة تقدم خدمات استشارية في التقنيات الحديثة وخدمات الاتصالات في المجال التجاري.تركز على دراسة وإيجاد الحلول المثلى التي تعزز من الاستدامة، من خلال خبرات مستشاريها التقنيين والإستراتيجيين.",
+      "aboutTechtrum_desc2": "",
       "aboutTechtrum_btn": "تعرف أكثر",
       "counter_yearsHelping": "سنوات في خدمة الأعمال",
       "counter_workingEmployees": "الموظفين العاملين",
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       titleser9: "تحسين الترددات الراديوية",
       descriptionser9: "تقنيات متقدمة لتقليل التداخل وزيادة كفاءة الطيف الترددي",
-
+      send:"ارسال",
       titleser10: "تخطيط السعات",
       descriptionser10: "دراسات حركة البيانات واستراتيجيات توسعة الشبكة للنمو المستقبلي",
       contactser1:"الاستشارات في الاتصالات اللاسلكية والألياف الضوئية",

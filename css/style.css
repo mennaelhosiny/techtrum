@@ -257,8 +257,11 @@ html[dir="rtl"] .tab-content {
 
 .row>* {
  
-     padding-right: calc(var(--bs-gutter-x) / 1); 
+     padding-right: 5px !important; 
     padding-left: 0 !important; 
+}
+.about-reverse .row{
+    padding-right: 0 !important;
 }
 
 .row {
@@ -369,6 +372,7 @@ html[dir="rtl"] .tab-content {
     justify-content: center;
     transition: 0.5s;
 }
+
 
 .header-carousel .owl-nav .owl-prev,
 .header-carousel .owl-nav .owl-next {

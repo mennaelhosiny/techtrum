@@ -76,7 +76,7 @@
 
 
     <!-- Navbar & Hero Start -->
-      <div class="container-fluid position-relative p-0">
+    <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5  py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
                 <img src="img/Capture.PNG" alt="Logo">
@@ -261,37 +261,36 @@
         </nav>
     </div>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const tabLinks = document.querySelectorAll(".service-tabs .nav-link");
-            const tabPanes = document.querySelectorAll(".tab-pane");
+  document.addEventListener("DOMContentLoaded", function () {
+    const tabLinks = document.querySelectorAll(".service-tabs .nav-link");
+    const tabPanes = document.querySelectorAll(".tab-pane");
 
-            tabLinks.forEach(link => {
-                link.addEventListener("mouseenter", function (e) {
-                    const targetId = link.getAttribute("data-target");
+    tabLinks.forEach(link => {
+      link.addEventListener("mouseenter", function (e) {
+        const targetId = link.getAttribute("data-target");
 
-                    // إزالة active من جميع العناصر
-                    tabLinks.forEach(l => l.classList.remove("active"));
-                    tabPanes.forEach(pane => {
-                        pane.classList.remove("show", "active");
-                    });
-
-                    // تفعيل العنصر المستهدف
-                    link.classList.add("active");
-                    const targetPane = document.querySelector(targetId);
-                    if (targetPane) {
-                        targetPane.classList.add("show", "active");
-                    }
-                });
-            });
+        // إزالة active من جميع العناصر
+        tabLinks.forEach(l => l.classList.remove("active"));
+        tabPanes.forEach(pane => {
+          pane.classList.remove("show", "active");
         });
-    </script>
+
+        // تفعيل العنصر المستهدف
+        link.classList.add("active");
+        const targetPane = document.querySelector(targetId);
+        if (targetPane) {
+          targetPane.classList.add("show", "active");
+        }
+      });
+    });
+  });
+</script>
     <!-- Navbar & Hero End -->
 
     <!-- Header Start -->
     <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px;">
-            <h3 class="text-primary display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s" data-i18n="title1">Contact Us
-                </h1>
+            <h3 class="text-white display-3 mb-4 wow fadeInDown"  data-wow-delay="0.1s" data-i18n="contactus">Contact Us </h3>
 
         </div>
     </div>
@@ -307,7 +306,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
                         <h2 class="display-5 mb-4" data-i18n="contactus">Form</h2>
-                        <form>
+                        <form action="main.php" method="post">
                             <div class="row g-3">
 
                                 <div class="col-lg-12">
@@ -333,13 +332,15 @@
                                         <label for="message" data-i18n="message">Message</label>
                                     </div>
                                 </div>
+                                         <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#" type="submit" data-i18n="send">Learn More</a>
+
 
                             </div>
                         </form>
                         
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
-                        <img src="img/portfolio-5.jpg" alt="" srcset="" style="border-radius: 20px;">
+                        <img src="img/4-4.jpg"  alt="" srcset=""  style="border-radius: 20px; width: 500px;">
 
                     </div>
 
@@ -389,7 +390,7 @@
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4">Quick Links</h4>
+                        <h4 class="text-white mb-4" data-i18n="QuickLinks" >Quick Links</h4>
                         <a href="about.html" class="footer-link" data-i18n="about"> About Us</a>
                         <a href="index.html" class="footer-link" data-i18n="home">Home</a>
                         <a href="team.html" class="footer-link" data-i18n="team">Our Team</a>
