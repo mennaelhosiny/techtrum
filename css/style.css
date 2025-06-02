@@ -257,7 +257,7 @@ html[dir="rtl"] .tab-content {
 
 .row>* {
  
-     padding-right: 5px !important; 
+     padding-right: 10px !important; 
     padding-left: 0 !important; 
 }
 .about-reverse .row{
