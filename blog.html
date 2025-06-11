@@ -73,10 +73,10 @@
 
 
         <!-- Navbar & Hero Start -->
-          <div class="container-fluid position-relative p-0">
+      <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5  py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
-                <img src="img/image1.png" alt="Logo">
+            <a href="index.html" class="navbar-brand p-0 py-3">
+                <img src="img/Capture.PNG" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -86,18 +86,163 @@
                     <a href="index.html" class="nav-item nav-link active" data-i18n="home">Home</a>
                     <a href="about.html" class="nav-item nav-link" data-i18n="about">About</a>
                     <!-- <a href="event.html" class="nav-item nav-link" data-i18n="events">Events</a> -->
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                            data-i18n="blogs">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="gallery.html" class="dropdown-item" data-i18n="blogs">Our classes</a>
-                            <a href="ser1.html" class="dropdown-item" data-i18n="titleser1">Dance Training</a>
-                            <a href="ser2.html" class="dropdown-item" data-i18n="titleser2">Our Team</a>
-                            <a href="ser3.html" class="dropdown-item" data-i18n="titleser3">Testimonial</a>
-                         
+                       <div class="nav-item dropdown position-static">
+                    <a class="nav-link dropdown-toggle custom-dropdown-toggle" href="gallery.html" data-bs-toggle="dropdown" data-i18n="blogs">
+                      Services <i class="fa-solid fa-angle-down"></i>
+                    </a>
+            <div class="dropdown-menu w-100 mt-0 rounded-0 border-top-0 shadow service-dropdown p-0">
+              <div class="row g-0">
+                <!-- القائمة الجانبية -->
+                <div class="col-md-3 bg-light p-3 border-end">
+                  <ul class="nav flex-column service-tabs">
+                      <li class="nav-item mb-2">
+                      
+                      <a class="nav-link " href="gallery.html" 
+                        data-i18n="blogs">
+                        Artificial Intelligence & ML 
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      
+                      <a class="nav-link " href="ser1.html" data-target="#service1"
+                        data-i18n="titleser1">
+                        Artificial Intelligence & ML 
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a class="nav-link" href="ser2.html" data-target="#service2"
+                        data-i18n="titleser2">
+                        Generative AI & GPT  
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a class="nav-link" href="ser3.html" data-target="#service3"
+                        data-i18n="titleser3">
+                        Big Data & Cloud 
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </div>
+
+                <!-- المحتوى -->
+
+                <div class="col-md-9 p-4">
+                  <div class="tab-content">
+
+                    <!-- Service 1 -->
+                    <div class="tab-pane fade show " id="service1">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <ul class="list-unstyled fs-6 fw-medium">
+                            <li>
+                              <a href="ser1.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-brain text-primary mx-2"></i>
+                                <span data-i18n="contactser1">AI Consulting</span>
+                              </a>
+                            </li>
+                            <li class="mt-2">
+                              <a href="ser1.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-robot text-primary mx-2"></i>
+                                <span data-i18n="contactser2">AI Product Development</span>
+                              </a>
+                            </li>
+                              <li class="mt-2">
+                              <a href="ser1.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-robot text-primary mx-2"></i>
+                                <span data-i18n="contactser3">AI Product Development</span>
+                              </a>
+                            </li>
+                          </ul>
                         </div>
+                        <div class="col-md-6">
+                          <img src="img/portfolio-1.jpg" class="img-fluid rounded shadow" alt="Service Preview">
+                        </div>
+                      </div>
                     </div>
-                    <a href="https://wa.me/966554442151" class="nav-item nav-link" data-i18n="contact">Contact Us</a>
+
+                    <!-- Service 2 -->
+                    <div class="tab-pane fade" id="service2">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <ul class="list-unstyled fs-6 fw-medium">
+                            <li>
+                              <a href="ser2.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-comments text-primary mx-2"></i>
+                                <span data-i18n="contactser11">Chatbot Integration</span>
+                              </a>
+                            </li>
+                            <li class="mt-2">
+                              <a href="ser2.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-magic text-primary mx-2"></i>
+                                <span data-i18n="contactser22">GPT Model Tuning</span>
+                              </a>
+                            </li>
+                              <li class="mt-2">
+                              <a href="ser2.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-magic text-primary mx-2"></i>
+                                <span data-i18n="contactser33">GPT Model Tuning</span>
+                              </a>
+                            </li>
+                             </li>
+                              <li class="mt-2">
+                              <a href="ser2.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-magic text-primary mx-2"></i>
+                                <span data-i18n="contactser44">GPT Model Tuning</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="img/portfolio-2.jpg" class="img-fluid rounded shadow" alt="Service Preview">
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="tab-pane fade" id="service3">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <ul class="list-unstyled fs-6 fw-medium">
+                            <li>
+                              <a href="ser3.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-database text-primary mx-2"></i>
+                                <span data-i18n="contactser111">Data Lakes</span>
+                              </a>
+                            </li>
+                            <li class="mt-2">
+                              <a href="ser3.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-cloud-upload-alt text-primary mx-2"></i>
+                                <span data-i18n="contactser333">Cloud Migration</span>
+                              </a>
+                            </li>
+                             <li class="mt-2">
+                              <a href="ser3.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-cloud-upload-alt text-primary mx-2"></i>
+                                <span data-i18n="contactser222">Cloud Migration</span>
+                              </a>
+                            </li>
+                             <li class="mt-2">
+                              <a href="ser3.html" class="d-flex align-items-center gap-2">
+                                <i class="fa fa-cloud-upload-alt text-primary mx-2"></i>
+                                <span data-i18n="contactser444">Cloud Migration</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="img/portfolio-3.jpg" class="img-fluid rounded shadow" alt="Service Preview">
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+                    <a href="contact.html" class="nav-item nav-link" data-i18n="contact">Contact Us</a>
                 </div>
 
                 <div class="dropdown" style="position: relative; display: inline-block;">

@@ -305,55 +305,65 @@
 
 
     <!-- Contact Start -->
-    <div class="container-fluid contact py-5">
-        <div class="container py-5">
+ <div class="container-fluid contact py-5">
+    <div class="container py-5">
+        <div class="bg-light rounded p-4 pb-0">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <h2 class="display-5 mb-4" data-i18n="contactus">Form</h2>
 
-            <div class="bg-light rounded p-4 pb-0">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                        <h2 class="display-5 mb-4" data-i18n="contactus">Form</h2>
-                        <form action="main.php" method="post">
-                            <div class="row g-3">
+                    <!-- نموذج الاتصال -->
+                    <form action="main.php" method="post">
+                        <div class="row g-3">
 
-                                <div class="col-lg-12">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder=""
-                                            data-i18n-placeholder="yourEmail" />
-                                        <label for="email" data-i18n="yourEmail">Your Email</label>
-                                    </div>
+                            <!-- البريد الإلكتروني -->
+                            <div class="col-lg-12">
+                                <div class="form-floating">
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="" required
+                                        data-i18n-placeholder="yourEmail" />
+                                    <label for="email" data-i18n="yourEmail">Your Email</label>
                                 </div>
-
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder=""
-                                            data-i18n-placeholder="subject" />
-                                        <label for="subject" data-i18n="subject">Subject</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" id="message" placeholder=""
-                                            data-i18n-placeholder="message" style="height: 160px"></textarea>
-                                        <label for="message" data-i18n="message">Message</label>
-                                    </div>
-                                </div>
-                                         <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#" type="submit" data-i18n="send">Learn More</a>
-
-
                             </div>
-                        </form>
-                        
-                    </div>
-                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
-                        <img src="img/4-4.jpg"  alt="" srcset=""  style="border-radius: 20px; width: 500px;">
 
-                    </div>
+                            <!-- العنوان -->
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" name="subject" class="form-control" id="subject" placeholder="" required
+                                        data-i18n-placeholder="subject" />
+                                    <label for="subject" data-i18n="subject">Subject</label>
+                                </div>
+                            </div>
 
+                            <!-- الرسالة -->
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea name="message" class="form-control" id="message" placeholder=""
+                                        style="height: 160px" required data-i18n-placeholder="message"></textarea>
+                                    <label for="message" data-i18n="message">Message</label>
+                                </div>
+                            </div>
+
+                            <!-- زر الإرسال -->
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary rounded-pill text-white py-3 px-5" data-i18n="send">
+                                    Send
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+
+                <!-- الصورة -->
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <img src="img/4-4.jpg" alt="" style="border-radius: 20px; width: 500px;">
                 </div>
             </div>
         </div>
     </div>
+</div>
+
     <!-- Contact End -->
 
     <!-- Footer Start -->
