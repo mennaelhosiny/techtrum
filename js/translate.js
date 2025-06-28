@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       titleser7: "IoT Infrastructure",
       descriptionser7: "Comprehensive IoT solutions for smart utilities, transportation, and public services",
-       QuickLinks:"Quick Links",
+       QuickLinks:"Explore",
 
       titleser8: "Digital Twin Solutions",
       descriptionser8: "Virtual replicas of physical assets for simulation, analysis, and control",
@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "message": "الرسالة",
       ourexperiense:"خبراتنا السابقة",
       ourprojects:"مشاريعنا",
-      QuickLinks:"روابط سريعة",
+      QuickLinks:" تصفح الموقع ",
       techtrum:"خدمات تكتروم",
       mnhgya:"نحقق النجاح من خلال المعايير الدولية والخبرات المحلية ",
       mnhgyadesc:"تبدأ منهجيتنا بإجراء تقييم للوضع الراهن (CSA) من خلال تفاعل فعّال مع العملاء. نحن نُصمم حلولاً مخصصة لمعالجة الفجوات المحددة وضمان نقل المعرفة. في تيكتروم كونسلت ، نُعطي الأولوية لاستدامة الحلول، مما يمكن ويُقوي عملاءنا لتحقيق النجاح الدائم.  ",
